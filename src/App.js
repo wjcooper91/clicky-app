@@ -45,10 +45,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <h1 className="App-title">The Clickster</h1>
-          <p className="App-intro">
-            Try not to click the same image twice!
-          </p>
+          <h1 className="App-title">Clicky App</h1>
         </header>
         <Score total={this.state.score}
                goal={8}
@@ -64,10 +61,6 @@ class App extends Component {
             />
           ))}
         </Wrapper>
-        <footer>
-          <p>Designed and built by Heather Mathies. You can find the
-          code<a href="https://github.com/hmathies/Clicky-Game" target="_blank" rel="noopener noreferrer"> here</a>.</p>
-        </footer>
     </div>
     );
   }
